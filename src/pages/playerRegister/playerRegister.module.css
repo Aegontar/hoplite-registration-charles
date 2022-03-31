@@ -29,7 +29,7 @@ input {
 }
 
 input, textarea {
-    background-color: white!important;
+    background-color: white;
   }
 
 textarea:focus, input:focus{

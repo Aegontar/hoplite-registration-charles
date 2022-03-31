@@ -13,7 +13,7 @@ const TopBar = () => {
     return (
        // gets a value from the current route and displays on header
         <div className={styles.topBar}>
-         <p>Regis / {`${pathname.charAt(0).toUpperCase() +  pathname.slice(1)}`}</p>
+         <p>Register / {`${pathname.charAt(0).toUpperCase() +  pathname.slice(1)}`}</p>
          <p> {`${pathname.charAt(0).toUpperCase() +  pathname.slice(1)}`}</p>
         </div>
         
