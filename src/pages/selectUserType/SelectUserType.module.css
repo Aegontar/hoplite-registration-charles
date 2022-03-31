@@ -1,0 +1,92 @@
+body {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.pageContainer {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.userTypeContainer {
+    display: flex;
+    text-align: center;
+    height: 100%;
+ 
+}
+
+.selectUserType {
+    height: 100%;
+}
+
+.userTypeContainer > div {
+    width: 50%;
+    height: 100%;
+}
+
+.userTypeIllustration {
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+.userTypeIllustration > img {
+    width: 100%;
+    height: 100%;
+}
+
+.userTypeButton {
+    height: 50px;
+    width: 250px;
+    background: #DE3C4B;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.userTypeButton > p{
+    margin: 0;
+}
+
+.p2eImageContainer > svg {
+    width: 300px;
+    height: 200px;
+}
+
+.userTypeButton:hover {
+    background: #df5c69;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+
+.selectUserType {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    border: .5px solid rgb(209, 207, 207);
+    width: 300px;
+    margin: 25px 0;
+}
+
+@media only screen and (max-width: 700px) {
+
+    
+    
+.userTypeContainer > div {
+    width: 100%;
+    height: 100%;
+    }
+
+    .userTypeIllustration {
+        display: none;
+    }
+  }
